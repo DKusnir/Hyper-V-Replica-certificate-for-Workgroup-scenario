@@ -82,9 +82,10 @@ In order to make this work, you should modify PC name add the DNS suffix .localh
 8. Import PFX certificate and make sure that Include all extended properties checkbox is checked during the wizard
 
 9. You now have 2 new certificates in the Trusted root : 
-
-     CertReq Test Root 
- Your DNSname certificate
+ 
+  *  CertReq Test Root 
+  *  Your DNSname certificate
+ 
 10. You can safely delete DNSName certificate from the Trusted root certification authorities
 
 11. Check the Personal > Certificate is now trusted
