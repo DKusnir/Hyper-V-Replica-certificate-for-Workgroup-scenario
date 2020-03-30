@@ -71,6 +71,8 @@ In order to make this work, you should modify PC name add the DNS suffix .localh
 
 4. Open up the Personal > Certificates and locate certificate issued by CertReq Test Root
 
+![ScreenShot](https://github.com/DKusnir/Hyper-V-Replica-certificate-for-Workgroup-scenario/blob/master/certificate.PNG)
+
 5. You will see that the certificate is not yet trusted
 
 6. That is why we generated 2 certificates -  trust is ensured by .pfx certificate
